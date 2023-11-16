@@ -1,0 +1,96 @@
+.slideshow-body{
+    width: 100%;
+}
+
+.slideshow {
+    width: 100%;
+    height: 60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.stores-class {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.shelf-class {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-body {
+    height: 300px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+.cards-wrapper {
+    grid-column: center-start / -1;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+    overflow: auto;
+    padding-bottom: 8px;
+    padding-right: var(--page-margin);
+    
+    .card {
+      display: grid;
+      transition: transform .2s;
+      overflow: hidden;
+      color: #15928A;
+      height: 300px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .card img {
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+
+}
+
+.centered {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #ffd166;
+    color: #000;
+    transition: 0.2s;
+    padding: 5px 10px 5px 10px;
+}
+
+.centered:hover {
+    cursor: pointer;
+    box-shadow: #000;
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+  }
+  
+.flex-container > div {
+    text-align: center;
+  }
+
+.slideshow-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

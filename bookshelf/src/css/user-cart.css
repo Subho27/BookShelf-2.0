@@ -1,0 +1,57 @@
+.cart-table-div {
+    margin: 50px 0 50px 0;
+}
+.cart-table {
+    margin: auto;
+    width: 90%;
+}
+span {cursor:pointer; }
+.minus, .plus{
+    width:20px;
+    height:30px;
+    background:orange;
+    border-radius:4px;
+    color: #000;
+    border:1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+input{
+    height:30px;
+    width: 50px;
+    text-align: center;
+    font-size: 26px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.button-edit {
+    width: 100%;
+    border-radius: 5px;
+    background-color: orange;
+    border-width: 0;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.button-edit:hover {
+    background-color: white;
+    color: #000;
+    border-width: 2px;
+    border-color: orange;
+}
+
+hr {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+}
+
+.td-button {
+    text-align: center;padding: 20px;
+}

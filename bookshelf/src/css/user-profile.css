@@ -1,0 +1,44 @@
+.table-class {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 8px;
+}
+
+.table-div {
+    padding: 50px;
+}
+
+.button-div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.button-edit {
+    border-radius: 5px;
+    background-color: orange;
+    border-width: 0;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.button-edit:hover {
+    background-color: white;
+    color: #000;
+    border-width: 2px;
+    border-color: orange;
+}
+
+td {
+    width: 200px;
+}
+
+hr {
+    margin-left: auto; 
+    margin-right: auto;
+}

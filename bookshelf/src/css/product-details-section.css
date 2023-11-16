@@ -1,0 +1,62 @@
+.checked {
+    color: orange;
+  }
+
+  .button-group{
+    padding: 10px;
+  }
+
+  .button-edit {
+    border-radius: 5px;
+    background-color: orange;
+    border-width: 0;
+    width: 40%;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.button-edit:hover {
+    background-color: white;
+    color: #000;
+    border-width: 2px;
+    border-color: orange;
+}
+
+.stores-heading-div {
+    margin: 50px;
+}
+
+.hr {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.details-div {
+    padding: 10px;
+}
+
+.description-div {
+    text-align: left;
+}
+
+.price-div {
+    font-size: 25px;
+}
+
+.original-price-div {
+    text-decoration: line-through;
+}
+
+.discount-span {
+    color: orange;
+    text-decoration: none;
+}
+
+.product-details-h5 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.product-details-p {
+    width: 500px;
+}

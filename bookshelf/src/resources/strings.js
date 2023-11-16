@@ -1,0 +1,1 @@
+export const WELCOME_STRING = "Welcome to Book Shelf - your very own book purchasing platform.";
