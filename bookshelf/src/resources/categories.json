@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "Thriller",
+      "type": "Thriller",
+      "example1": "Gone Girl By Gillian Flynn",
+      "example2": "Verity By Colleen Hoover"
+    },
+    {
+      "name": "History",
+      "type": "History",
+      "example1": "Salt By Mark Kurlansky",
+      "example2": "The Art of War By Sun Tzu"
+    },
+    {
+      "name": "Science Fiction",
+      "type": "Science-Fiction",
+      "example1": "Dune By Frank Herbert",
+      "example2": "Frankenstein By Mary Shelley"
+    },
+    {
+      "name": "Biography",
+      "type": "Biography",
+      "example1": "Wings of Fire By Dr. A. P. J. Abdul Kalam",
+      "example2": "Steve Jobs By Walter Isaacson"
+    },
+    {
+      "name": "Horror",
+      "type": "Horror",
+      "example1": "Dracula By Bram Stoker",
+      "example2": "Ring By Koji Suzuki"
+    },
+    {
+      "name": "Short Story",
+      "type": "Short-Story",
+      "example1": "Dear Life By Alice Munro",
+      "example2": "Fragile Things By Neil Gaiman"
+    },
+    {
+      "name": "Science",
+      "type": "Science",
+      "example1": "Cosmos By Carl Sagan",
+      "example2": "Silent Spring By Rachel Carson"
+    },
+    {
+      "name": "Drama",
+      "type": "Drama",
+      "example1": "Hamlet By William Shakespeare",
+      "example2": "Romeo and Juliet By William Shakespeare"
+    },
+    {
+      "name": "Education",
+      "type": "Education",
+      "example1": "Educated By Tara Westover",
+      "example2": "Three Cups of Tea By Greg Mortenson"
+    }
+  ]
+}

@@ -34,3 +34,11 @@
 .heading {
     color: orange;
 }
+
+.link-style {
+    color: blueviolet;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+}

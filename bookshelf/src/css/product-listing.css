@@ -7,11 +7,10 @@
     justify-content: center;
     margin-left: 50px;
     column-gap: 5px;
-    width: 95%;
 }
 
 .product-card {
-    width: 230px;
+    width: 250px;
     margin: 20px;
     border-radius: 0 10px 0 10px;
     transition: 0.3s;
@@ -56,4 +55,12 @@
     position:absolute;
     right:0;
     top:0;
+}
+
+.rating-class {
+  margin-right: 5px;
+}
+
+.center {
+  text-align: center;
 }

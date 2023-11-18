@@ -12,8 +12,8 @@ class App extends Component {
     return (
       <Routes>
         <Route path='/' element={ <Home/> } />
-        <Route path='product-list' element={ <ProductList/> } />
-        <Route path='product-detail' element={ <ProductDetails/>} />
+        <Route path="product-list/:id" element={ <ProductList/> } />
+        <Route path='product-detail/:bid' element={ <ProductDetails/>} />
         <Route path='cart' element={ <Cart/>} />
         <Route path='profile' element={ <Profile/>} />
       </Routes>

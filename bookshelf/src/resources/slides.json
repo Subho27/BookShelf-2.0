@@ -1,0 +1,25 @@
+{
+    "slides": [
+      {
+        "image-path": "slideshow/first.jpg",
+        "location": "Kolkata Stores",
+        "alt-text": "first"
+      },
+      {
+        "image-path": "slideshow/second.jpg",
+        "location": "Delhi Stores",
+        "alt-text": "second"
+      },
+      {
+        "image-path": "slideshow/third.jpg",
+        "location": "Mumbai Stores",
+        "alt-text": "third"
+      },
+      {
+        "image-path": "slideshow/fourth.jpg",
+        "location": "Chennai Stores",
+        "alt-text": "fourth"
+      }
+    ]
+  }
+  

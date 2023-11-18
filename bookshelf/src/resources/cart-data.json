@@ -1,0 +1,21 @@
+{
+    "cart": [
+      {
+        "name": "Foundation",
+        "author": "Isaac Asimov",
+        "category": "Science-Fiction",
+        "image-path": "book11.jpg",
+        "price": "99.00",
+        "quantity": "3"
+      },
+      {
+        "name": "The Martian",
+        "author": "Andy wier",
+        "category": "Science-Fiction",
+        "image-path": "book10.jpg",
+        "price": "99.00",
+        "quantity": "2"
+      }
+    ]
+}
+  

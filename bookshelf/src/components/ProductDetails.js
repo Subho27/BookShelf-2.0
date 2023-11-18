@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import TopBanner from './topBanner';
-import SearchBar from './searchBar';
-import MenuDropdown from './menuDropdown';
-import Footer from './footer';
-import ProductDetailsSection from './productDetailsSection';
+import TopBanner from './helper-component/topBanner';
+import SearchBar from './helper-component/searchBar';
+import MenuDropdown from './helper-component/menuDropdown';
+import Footer from './helper-component/footer';
+import ProductDetailsSection from './helper-component/productDetailsSection';
+import withRouter from './helper-component/withRouter';
 
 class ProductDetails extends Component {
   render() {
@@ -12,11 +13,11 @@ class ProductDetails extends Component {
             <TopBanner/>
             <SearchBar/>
             <MenuDropdown/>
-            <ProductDetailsSection/>
+            <ProductDetailsSection bid={this.props.params.bid} ></ProductDetailsSection>
             <Footer/>
         </div>
     );
   }
 }
 
-export default ProductDetails;
+export default withRouter(ProductDetails);

@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import TopBanner from './topBanner';
-import SearchBar from './searchBar';
-import MenuDropdown from './menuDropdown';
-import Footer from './footer';
-import ProductListing from './productListing';
+import TopBanner from './helper-component/topBanner';
+import SearchBar from './helper-component/searchBar';
+import MenuDropdown from './helper-component/menuDropdown';
+import Footer from './helper-component/footer';
+import ProductListing from './helper-component/productListing';
+import withRouter from './helper-component/withRouter';
 
-class Home extends Component {
+class ProductList extends Component {
   render() {
     return (
         <div>
             <TopBanner/>
             <SearchBar/>
             <MenuDropdown/>
-            <ProductListing/>
+            <ProductListing id={this.props.params.id}></ProductListing>
             <Footer/>
         </div>
     );
   }
 }
 
-export default Home;
+export default withRouter(ProductList);

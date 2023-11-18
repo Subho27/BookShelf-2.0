@@ -55,3 +55,11 @@ td {
 .td-button {
     text-align: center;padding: 20px;
 }
+
+.quantity-for-calculation {
+    font-size: medium;
+}
+
+.center {
+    text-align: center;
+}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import TopBanner from './topBanner';
-import SearchBar from './searchBar';
-import MenuDropdown from './menuDropdown';
-import Footer from './footer';
-import UserProfile from './userProfile';
+import TopBanner from './helper-component/topBanner';
+import SearchBar from './helper-component/searchBar';
+import MenuDropdown from './helper-component/menuDropdown';
+import Footer from './helper-component/footer';
+import UserProfile from './helper-component/userProfile';
 
 class Profile extends Component {
   render() {

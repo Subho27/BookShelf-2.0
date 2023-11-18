@@ -1,0 +1,9 @@
+export const LOGO_COLOR_PATH = "logo-color.png";
+export const LOGO_NAME_PATH = "logo-name.png";
+export const LOGO_SEARCH_PATH = "search-icon.png";
+export const LOGO_TRACKING_PATH = "tracking-icon.png";
+export const LOGO_FAVORITE_PATH = "favorite-icon.png";
+export const LOGO_CART_PATH = "cart-icon.png";
+export const LOGO_HELP_PATH = "help-icon.png";
+export const LOGO_USER_PATH = "user-icon.png";
+export const LOGO_ADD_TO_CART = "add-to-cart-icon.png";
